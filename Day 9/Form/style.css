@@ -1,0 +1,121 @@
+body{
+    background-color: rgb(50, 50, 50);
+}
+
+.container{
+    width: 450px;
+    height: 300px;
+    margin: auto;
+    margin-top: 170px;
+    background-color: white;
+    position: relative;
+    align-items: center;
+}
+
+.outline{
+    border: 2px solid black;
+    width: 96%;
+    height: 94%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);            
+}
+
+#header{
+    width: 95%;
+    height: 33px;
+    margin: auto;
+    margin-top: -12px;
+    background-color:red;
+    color:white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 32px;
+}
+
+span{
+    font-family: sans-serif;
+}
+
+input{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid black;
+}
+
+#fLine-left{
+    display: inline-block;
+    width: 35%;
+    margin-left: 12px;
+}
+
+#fLine-right{
+    display: inline-block;
+    width: 35%;
+    margin-left: 60px;
+}
+
+#fLine-left input{
+    width: 180px;;
+    height: 100%;
+}
+
+#fLine-right input{
+    width: 180px;
+    height: 100%;
+}
+
+#address{
+    width: 94% !important;
+    padding-left: 12px;
+}
+
+.sLine-left{
+    display: inline-block;
+    width: 120px;
+    margin-left: 12px;
+}
+
+.sLine-center{
+    display: inline-block;
+    width: 120px;
+    margin-left: 15px;
+}
+
+.sLine-right{
+    display: inline-block;
+    width: 120px;
+    margin-left: 15px;
+}
+
+.sLine-right input{
+    width: 115px;
+}
+.sLine-left input{
+    width: 115px;
+}
+.sLine-center input{
+    width: 115px;
+}
+
+label{
+   font-size: 12px;
+   line-height: 24px;
+}
+
+.subscribe{
+    margin-left: 12px;
+    display: inline;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.info{
+    margin-left: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 7px;
+}
