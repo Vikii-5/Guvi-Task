@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML & CSS Task</title>
+    <style>
+      td {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Use certain HTML elements to display the following in a HTML page.</h3>
+    <ul>
+      <li>
+        Programming Language
+        <ul>
+          <li>
+            JavaScript
+            <ol type="a">
+              <li>Angular</li>
+              <li>React</li>
+              <li>Vue.js</li>
+            </ol>
+          </li>
+          <li>
+            Python
+            <ol type="a">
+              <li>Django Framework</li>
+              <li>Flask Framework</li>
+            </ol>
+          </li>
+          <li>
+            Java
+            <ol type="a">
+              <li>Spring</li>
+              <li>Maven</li>
+              <li>Hibernate</li>
+            </ol>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <ul>
+      <li>
+        Database
+        <ul>
+          <li>MySQL</li>
+          <li>MongoDB</li>
+          <li>Cansandra</li>
+        </ul>
+      </li>
+    </ul>
+    <hr />
+    <h3>
+      Create an element that helps you to open the https://google.com in
+      separate new tab.
+    </h3>
+    <a href="https://google.com" target="_blank">Google</a>
+    <hr />
+
+    <h3>
+      In the form, add two radio buttons with grouping them for employee
+      type(Salaried and own business)
+    </h3>
+    <form action="#" method="get">
+      <input type="radio" name="empType" id="empType" />Salaried
+      <input type="radio" name="empType" id="empType" />Own Business
+    </form>
+
+    <hr />
+    <h3>Use the table tag to design given image</h3>
+    <table border="1px" text-align="center" cellspacing="0" cellpadding="10">
+      <tr>
+        <td rowspan="2">State of Healtth</td>
+        <td colspan="2">Fasting Value</td>
+        <td>After Eating</td>
+      </tr>
+
+      <tr>
+        <td>Minimum</td>
+        <td>Maximum</td>
+        <td>2 Hrs after eating</td>
+      </tr>
+
+      <tr>
+        <td>Healthy</td>
+        <td>70</td>
+        <td>100</td>
+        <td>Less than 140</td>
+      </tr>
+
+      <tr>
+        <td>Pre-Diabetes</td>
+        <td>101</td>
+        <td>126</td>
+        <td>140 to 200</td>
+      </tr>
+
+      <tr>
+        <td>Diabetes</td>
+        <td>More than 126</td>
+        <td>N/A</td>
+        <td>More than 200</td>
+      </tr>
+    </table>
+
+    <hr />
+
+    <h3>
+      Write HTML input tags snippet to show default values for all Form
+      elements.
+    </h3>
+    <form action="#" method="get">
+      <fieldset>
+        <legend><b> Form Elements </b></legend>
+        <label for="name">Your Name: </label>
+        <input type="text" name="name" value="Vignesh" /><br /><br />
+        <select name="course" id="course">
+          <option value="select">Select a Course</option>
+          <optgroup label="Week Day Batch">
+            <option value="javascript">JavaScript</option>
+            <option value="python">Python</option>
+          </optgroup>
+          <optgroup label="Week End Batch">
+            <option value="aws">AWS</option>
+            <option value="mysql">MySQL</option>
+          </optgroup>
+        </select>
+        <br /><br />
+        <label for="qualification">Your Qualification: </label>
+        <input list="classes" placeholder="Select your Qualification" />
+        <datalist id="classes">
+          <option value="HSC"></option>
+          <option value="UG"></option>
+          <option value="PG"></option>
+        </datalist>
+
+        <br /><br />
+        <textarea
+          name="comments" id="comments" cols="30" rows="10" placeholder="Enter your Coments"></textarea>
+        <br /><br />
+
+        <button type="submit">Submit</button>
+      </fieldset>
+    </form>
+    <hr />
+
+    <h3>In your, HTML page add the below line and Highlight it without using any CSS.</h3>
+    <p style="font-weight: bold; color: red; font-size: larger;">"HTML & CSS is awesome"</p>
+    
+    
+  </body>
+</html>
